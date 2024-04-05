@@ -1,0 +1,16 @@
+header {
+  padding: 20px 0;
+  background: #eee;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      font-size: 32px;
+    }
+    .nav-links {
+      @extend nav;
+      gap: 20px;
+    }
+  }
+}

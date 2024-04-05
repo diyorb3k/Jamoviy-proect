@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  padding: 20px 0;
+  background: #eee;
+}
+header nav, header nav .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  font-size: 32px;
+}
+header nav .nav-links {
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
